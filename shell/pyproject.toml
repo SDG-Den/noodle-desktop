@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "noodle-shell"
+version = "0.1.0"
+description = "Top bar layer-shell client for the noodle-desktop wayfire session"
+requires-python = ">=3.11"
+
+[project.scripts]
+noodle-shell = "noodle_shell.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/noodle_shell"]

@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791456040,
+        "narHash": "sha256-H83yz/do+hjOO0uujHyH8RgtIQP2v7Mw+cLwcZK/xKc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e7439b6b14ad3cc35d05608ebca9bce01a25f5f8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e7439b6b14ad3cc35d05608ebca9bce01a25f5f8",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "wayfire-fork": "wayfire-fork"
+      }
+    },
+    "wayfire-fork": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791491437,
+        "narHash": "sha256-2aCEhlMPJVWzA/k6F/Birc0i7WeclEGkxbcfsds8mCA=",
+        "ref": "refs/heads/master",
+        "rev": "fdf8832e4263db54e2fef2abf30326e16877b8a2",
+        "revCount": 3572,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/SDG-Den/wayfire"
+      },
+      "original": {
+        "rev": "fdf8832e4263db54e2fef2abf30326e16877b8a2",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/SDG-Den/wayfire"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
